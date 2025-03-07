@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.left{
+    height: 30px;
+    width: 40px;
+}
+
+.right{
+    height: 30px;
+    width: 40px;
+}
+
+.image{
+    height: 330px;
+    width: 430px;
+}
+
+.slider{
+    display: flex;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame{
+    overflow: hidden;
+    height: 330px;
+    width: 430px;
+    margin: 100px;
+    background-size: cover;
+    box-shadow: -1px 1px 10px rgba(0,0,0,0.5);
+}
